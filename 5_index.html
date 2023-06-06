@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Event Registration</h2>
+
+    <form>
+        <label for = "Name:">Name</label>
+        <input type="text" name = "Name" id = "Name">
+
+        <br/>
+        <br/>
+
+        <label for = "emailID:">E-mail:</label>
+        <input type="email" name = "emailId" id = "emailID">
+
+        <br/>
+        <br/>
+
+        <label for = "Mob:">Phone no:</label>
+        <input type="tel" name = "Phone" id = "Mob">
+
+        <br/>
+        <br/>
+
+        <label for = "OccupationType:">OccupationType:</label>
+        <select name = "OccupationType:" id = "OccupationType:" >
+            <option value = "student">Student</option>
+            <option value = "profession">profession</option>
+            <option value = "HR">HR</option>
+        </select>
+        
+    
+        <fieldset>
+            <legend>Topics of Interest</legend>
+
+            <label for = "checkbox1">Html</label>
+            <input type = "checkbox" name = "checkbox" id = "checkbox1">
+            <br/>
+            <br/>
+            <label for = "checkbox2">CSS</label>
+            <input type = "checkbox" name = "checkbox2" id = "checkbox2">
+            <br/>
+            <br/>
+            <label for = "checkbox3">Javascript</label>
+            <input type = "checkbox" name = "checkbox" id = "checkbox3">
+        </fieldset>
+        <label for = "textArea1">Comments:</label>
+        <br/>
+        <textarea name = "textArea1" id="textArea1" cols = "30" rows = "10"></textarea>
+        
+        <input type="submit" value = "Register">
+    </form>
+</body>
+</html>
